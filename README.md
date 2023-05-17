@@ -1,0 +1,1 @@
+This is a backend bootstrap application for user authentication and authorization using JWT with Nodejs and Express application
