@@ -2,9 +2,12 @@
   "name": "backend-auth",
   "version": "1.0.0",
   "description": "A node application that bootstraps authentication and authorization using JWT",
-  "main": "app.js",
+  "main": "src/app.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon  src/app.js",
+    "start": "node  src/app.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +20,7 @@
   },
   "homepage": "https://github.com/github.com/gentomacine#readme",
   "dependencies": {
+    "bcrypt": "^5.1.0",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "mongoose": "^7.1.1",
