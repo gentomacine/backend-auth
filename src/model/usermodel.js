@@ -21,10 +21,7 @@ const userSchema = new mongoose.Schema(
             type: String,
             required: [true, "password is needed"]
         },
-        confim:{
-            type:String,
-            required:[true, "confirm password"]
-        },
+        
         isBlocked: {
             type: Boolean,
             default: false
